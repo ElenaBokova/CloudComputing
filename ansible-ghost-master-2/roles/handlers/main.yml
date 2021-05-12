@@ -1,7 +1,0 @@
----
-- name: ghost - restart service
-  service:
-    name: "{{ ghost_service_name }}"
-    state: restarted
-  become: yes
-
